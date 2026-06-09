@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Student Admission Form</h1>
+
+    <form>
+        <label for="">student Name </label>
+        <input type="text"> required minlength="2">
+        
+        <br><br>
+        
+        <label for="">student email </label>
+        <input type="email">
+
+        <br>
+        <br>
+        <br>
+        <label for="">address</label>
+        <textarea cols="20" rows="4"></textarea>
+
+        <br><br>
+
+        <label for="">gender</label>
+        <input type="radio" name="gender"> male
+        <input type="radio" name="gender"> female
+
+        <br><br>
+
+        <label for=""> select course</label>
+        <select>
+            <option> Mern stack development</option>
+            <option> Data science</option>
+            <option> data analytics</option>
+            <option> devops </option>
+            <option> UI/UX Design</option>
+        </select>
+
+        <br><br>
+
+        <label for=""> select college</label>
+        <input type="text" list="college">
+        <datalist id="college">
+            <option> amity university</option>
+            <option> shivaji university</option>
+            <option> delhi university</option>
+            <option> jnu</option>
+            <option> jamia millia islamia</option>
+        </datalist>
+
+        <br><br>
+
+        <input type="checkbox" id="terms"> 
+        <label for="terms"> accept terms and conditions</label>
+
+        <br><br>
+
+        <details>
+            <summary> click to read terms and conditions</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+
+
+        <button type="submit">submit</button>
+
+    </form>
+
+</body>
+
+
+
+    
+</body>
+</html>
